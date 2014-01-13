@@ -1,6 +1,11 @@
 body {background-color: pink; font-family: "Helvetica", sans-serif;}
+header {padding-top: 2%;}
+header h1, h5 {display: inline;}
 footer {position: fixed; bottom: 20px;}
-#theball {position: fixed; left: 0px; top: -10px;}
+.theballC {position: fixed; left: 0px; top: -10px;}
+.theballL {position: fixed; left: -20px; top: -10px;}
+.theballR {position: fixed; left: 20px; top: -10px;}
+
 #theanswer { position: absolute; top: 50%; left: 30%;}
 
 .answer {display: none;}
