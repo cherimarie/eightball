@@ -1,7 +1,10 @@
 body {background-color: pink; font-family: "Helvetica", sans-serif;}
 header {padding-top: 2%;}
 header h1, h5 {display: inline;}
-footer {position: fixed; bottom: 20px;}
+footer {position: fixed; bottom: 20px; right: 10px;}
+a {text-decoration: none; color: magenta;}
+a:focus, a:hover {color: purple;}
+
 .theballC {position: fixed; left: 0px; top: -10px;}
 .theballL {position: fixed; left: -20px; top: -10px;}
 .theballR {position: fixed; left: 20px; top: -10px;}
